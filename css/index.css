@@ -1,0 +1,43 @@
+.navbar {
+  padding: 5px 20px;
+}
+.navbar .navbar_container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+.navbar .navbar_container-lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 40px;
+  padding-right: 100px;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+}
+.navbar .navbar_container-lista .lista_element {
+  list-style: none;
+  color: #559933;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.navbar .navbar_container-lista .lista_element:hover {
+  color: rgb(77, 20, 184);
+}
+.navbar .navbar_container-lista .lista_element:hover::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: rgb(77, 20, 184);
+  position: absolute;
+  bottom: 0px;
+}
+
+/*# sourceMappingURL=index.css.map */
